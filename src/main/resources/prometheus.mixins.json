@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "studio.dreamys.prometheus.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"gg.essential.network.connectionmanager.MixinCosmeticsManager"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
