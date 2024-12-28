@@ -6,7 +6,7 @@
 
     <groupId>studio.dreamys</groupId>
     <artifactId>prometheus</artifactId>
-    <version>essential-1.0.0-beta</version>
+    <version>essential-1.0.0</version>
 
     <repositories>
         <repository>
