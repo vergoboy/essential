@@ -57,6 +57,8 @@
             <version>9.7.1</version>
         </dependency>
 
+        <!-- موقتاً کامنت شده تا کامپایل شود -->
+        <!--
         <dependency>
             <groupId>gg.essential</groupId>
             <artifactId>essential</artifactId>
@@ -64,6 +66,7 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/essential.mock.jar</systemPath>
         </dependency>
+        -->
     </dependencies>
 
     <build>
@@ -75,6 +78,15 @@
         </resources>
 
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.1</version>
+                <configuration>
+                    <source>8</source>
+                    <target>8</target>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
